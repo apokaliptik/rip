@@ -156,7 +156,7 @@ apiku = setting.apiku // https://api-skiuwers.herokuapp.com/
 creator = 'X-Arip͘⁴̅⁰͍⁴̵〆' // Jangan diubah 
 creatorr = '6287734615735' // jangan diubah
 developer = 'Zeeone OFC' // Jangan diubah 
-developerr = '6287776101997' // Jangan diubah 
+developerr = '6287734615735' // Jangan diubah 
 numbernye = '0' // jangan diubah
 waktu = '-' // jangan diubah
 alasan = '-' // jangan diubah
@@ -8058,19 +8058,27 @@ root.sendMessage(from, s, sticker, {quoted: fkontak})
 }
 if (messagesC.includes("pagi")) {
 if (rip.key.fromMe) return
-reply(`Oke mantap`)
+const goodblok = ['Udah sore', 'Udah siang', 'Lanjut tidur', 'Ya nda tau kok tanya saya', 'Maksudnya?', 'Semua orang juga tau', 'Mungkin', 'Yang bilang ini malam spa?', 'Yang bilang ini sore spa?', 'Yang bilang ini siang spa?', 'Bisa iya bisa ngga','Emang udah pagi?', 'Udah tau si', 'Ulangi bro gak paham','Oh', 'Kenapa?', 'Bisa Jadi', 'YNTKTS', 'Ya in aja?', 'Siang?', 'Mungkin', 'Oh iya kah?', 'Malam malam, orang disini udah pagi', 'Yang bilang ini pagi spa?', 'Bisa iya bisa ngga','Ya gimana dong?', 'Ya serah', 'Bacot banget lu kentod']
+const todtod = goodblok[Math.floor(Math.random() * goodblok.length)]
+reply(todtod)
 }
 if (messagesC.includes("siang")) {
 if (rip.key.fromMe) return
-reply(`Oke mantap`)
+const goodblok = ['Udah malam', 'Udah sore', 'Lanjut tidur', 'Ya nda tau kok tanya saya', 'Maksudnya?', 'Semua orang juga tau', 'Mungkin', 'Yang bilang ini malam spa?', 'Yang bilang ini sore spa?', 'Yang bilang ini pagi spa?', 'Bisa iya bisa ngga','Emang udah siang?', 'Udah tau si', 'Ulangi bro gak paham','Oh', 'Kenapa?', 'Bisa Jadi', 'YNTKTS', 'Ya in aja?', 'Pagi?', 'Mungkin', 'Oh iya kah?', 'Siang siang, orang disini udah malam', 'Yang bilang ini siang spa?', 'Bisa iya bisa ngga','Ya gimana dong?', 'Ya serah', 'Bacot banget lu kentod']
+const todtod = goodblok[Math.floor(Math.random() * goodblok.length)]
+reply(todtod)
 }
 if (messagesC.includes("sore")) {
 if (rip.key.fromMe) return
-reply(`Oke mantap`)
+const goodblok = ['Masih pagi', 'Masih siang', 'Lanjut tidur', 'Ya nda tau kok tanya saya', 'Maksudnya?', 'Semua orang juga tau', 'Mungkin', 'Yang bilang ini malam spa?', 'Yang bilang ini pagi spa?', 'Yang bilang ini siang spa?', 'Bisa iya bisa ngga','Emang udah pagi ?', 'Udah tau si', 'Ulangi bro gak paham','Oh', 'Kenapa?', 'Bisa Jadi', 'YNTKTS', 'Ya in aja?', 'Pagi?', 'Mungkin', 'Oh iya kah?', 'Sore sore, orang disini udah malam', 'Yang bilang ini sore spa?', 'Bisa iya bisa ngga','Ya gimana dong?', 'Ya serah', 'Bacot banget lu kentod']
+const todtod = goodblok[Math.floor(Math.random() * goodblok.length)]
+reply(todtod)
 }
 if (messagesC.includes("malam")) {
 if (rip.key.fromMe) return
-reply(`Oke mantap`)
+const goodblok = ['Masih sore', 'Masih pagi', 'Lanjut tidur', 'Ya nda tau kok tanya saya', 'Maksudnya?', 'Semua orang juga tau', 'Mungkin', 'Yang bilang ini siang spa?', 'Yang bilang ini sore spa?', 'Yang bilang ini pagi spa?', 'Bisa iya bisa ngga','Emang udah malam?', 'Udah tau si', 'Ulangi bro gak paham','Oh', 'Kenapa?', 'Bisa Jadi', 'YNTKTS', 'Ya in aja?', 'Pagi?', 'Mungkin', 'Oh iya kah?', 'Malam malam, orang disini udah pagi', 'Yang bilang ini pagi spa?', 'Bisa iya bisa ngga','Ya gimana dong?', 'Ya serah', 'Bacot banget lu kentod']
+const todtod = goodblok[Math.floor(Math.random() * goodblok.length)]
+reply(todtod)
 }
 if (messagesC.includes("botnya")) {
 if (rip.key.fromMe) return
